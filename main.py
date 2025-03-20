@@ -8,7 +8,7 @@ import os
 load_dotenv()
 API_KEY = os.getenv("HUGGINGFACE_API_KEY")
 
-API_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-dev" 
+API_URL = "https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-dev" 
 headers = {"Authorization": f"Bearer {API_KEY}"}
 
 def query(payload):
